@@ -26,6 +26,7 @@ namespace Juice_World.Models
                         Title = "Mystic Mango",
                         ReleaseDate = DateTime.Parse("2024-7-15"),
                         Genre = "Fruit",
+                        Rating = "E",
                         Price = 7.49M
                     },
                     #endregion
@@ -36,6 +37,7 @@ namespace Juice_World.Models
                         Title = "Citrus Celestial",
                         ReleaseDate = DateTime.Parse("2024-6-22"),
                         Genre = "Fruit",
+                        Rating = "E",
                         Price = 6.49M
                     },
                     #endregion
@@ -46,6 +48,7 @@ namespace Juice_World.Models
                         Title = "Zesty Zucchini",
                         ReleaseDate = DateTime.Parse("2024-5-30"),
                         Genre = "Veggie",
+                        Rating = "E",
                         Price = 5.79M
                     },
                     #endregion
@@ -56,6 +59,7 @@ namespace Juice_World.Models
                         Title = "Berry Bliss",
                         ReleaseDate = DateTime.Parse("2024-4-10"),
                         Genre = "Fruit",
+                        Rating = "E",
                         Price = 6.99M
                     },
                     #endregion
@@ -66,6 +70,7 @@ namespace Juice_World.Models
                         Title = "Sweet Spinach",
                         ReleaseDate = DateTime.Parse("2024-3-25"),
                         Genre = "Veggie",
+                        Rating = "E",
                         Price = 5.89M
                     },
                     #endregion
@@ -76,6 +81,7 @@ namespace Juice_World.Models
                         Title = "Tropical Tango",
                         ReleaseDate = DateTime.Parse("2024-2-5"),
                         Genre = "Fruit",
+                        Rating = "E",
                         Price = 7.19M
                     },
                     #endregion
@@ -86,6 +92,7 @@ namespace Juice_World.Models
                         Title = "Crunchy Cucumber",
                         ReleaseDate = DateTime.Parse("2024-1-18"),
                         Genre = "Veggie",
+                        Rating = "E",
                         Price = 5.59M
                     },
                     #endregion
@@ -96,6 +103,7 @@ namespace Juice_World.Models
                         Title = "Radiant Raspberry",
                         ReleaseDate = DateTime.Parse("2023-12-10"),
                         Genre = "Fruit",
+                        Rating = "E",
                         Price = 6.89M
                     },
                     #endregion
@@ -106,6 +114,7 @@ namespace Juice_World.Models
                         Title = "Peppery Parsley",
                         ReleaseDate = DateTime.Parse("2023-11-20"),
                         Genre = "Veggie",
+                        Rating = "E",
                         Price = 5.99M
                     },
                     #endregion
@@ -116,6 +125,7 @@ namespace Juice_World.Models
                         Title = "Gleaming Grapefruit",
                         ReleaseDate = DateTime.Parse("2023-10-7"),
                         Genre = "Fruit",
+                        Rating = "E",
                         Price = 7.29M
                     }
                     #endregion

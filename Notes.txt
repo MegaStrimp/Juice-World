@@ -30,11 +30,20 @@ Maintaining this 'separation of concerns' helps keep the code:
 -----------------------------------------------------
 Add an 'MVC Controller with views using Entity Framework' (Scaffolded Item) to create a model.
 -----------------------------------------------------
-Create a migration with selected commands at Tools>NuGet Package Manager>Package Manager Console
+Create a migration with selected commands at Tools>NuGet Package Manager>Package Manager Console:
+Add-Migration InitialCreate
+Update-Database
 -----------------------------------------------------
 'Data/...Context' Handles database connection.
 -----------------------------------------------------
 Go to View>SQL Server Object Explorer to check your database.
 -----------------------------------------------------
 'Seeding' a database means populating it with an initial set of data.
+-----------------------------------------------------
+To add a new property to the model, first add it to the model class and then update the '[Bind()]'s in the controller and the displays on the views.
+Don't forget to add the new property to SeedData.
+
+When it's all done, update the database schema using Code First Migrations:
+Add-Migration Rating
+Update-Database
 -----------------------------------------------------

@@ -20,9 +20,38 @@ namespace Juice_World.Controllers
         }
 
         // GET: Juices
-        public async Task<IActionResult> Index()
+        // GET: Movies
+        public async Task<IActionResult> Index(string juiceGenre, string searchString)
         {
-            return View(await _context.Juice.ToListAsync());
+            if (_context.Juice == null)
+            {
+                return Problem("Entity set 'Juice_WorldContext.Movie'  is null.");
+            }
+
+            // Use LINQ to get list of genres.
+            IQueryable<string> genreQuery = from m in _context.Juice
+                                            orderby m.Genre
+                                            select m.Genre;
+            var juices = from m in _context.Juice
+                         select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                juices = juices.Where(s => s.Title!.ToUpper().Contains(searchString.ToUpper()));
+            }
+
+            if (!string.IsNullOrEmpty(juiceGenre))
+            {
+                juices = juices.Where(x => x.Genre == juiceGenre);
+            }
+
+            var juiceGenreVM = new JuiceGenreViewModel
+            {
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Juices = await juices.ToListAsync()
+            };
+
+            return View(juiceGenreVM);
         }
 
         // GET: Juices/Details/5
@@ -54,7 +83,7 @@ namespace Juice_World.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Price")] Juice juice)
+        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Rating,Price")] Juice juice)
         {
             if (ModelState.IsValid)
             {
@@ -86,7 +115,7 @@ namespace Juice_World.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Price")] Juice juice)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Rating,Price")] Juice juice)
         {
             if (id != juice.Id)
             {
