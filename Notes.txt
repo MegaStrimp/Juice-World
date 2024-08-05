@@ -1,0 +1,40 @@
+-----------------------------------------------------
+The Model-View-Controller (MVC) separates an app into three components:
+* Model			(Business)	Classes that represent the data of the app
+* View			(UI)		Components that display the app's UI
+* Controller	(Input)		Classes that handle browser requests, retrieve model data, and call view templates that return a response.
+-----------------------------------------------------
+https://localhost:5001/Home/Privacy: specifies the 'Home' controller and the 'Privacy' action.
+https://localhost:5001/Movies/Edit/5: is a request to edit the movie with 'ID=5' using the 'Movies' controller and the 'Edit' action.
+-----------------------------------------------------
+The 'HelloWorld' in 'HelloWorldController' makes the controller run in './HelloWorld/'.
+public string Index()		./HelloWorld/
+public string Welcome()		./HelloWorld/Welcome/
+-----------------------------------------------------
+'/HelloWorld/Welcome?name=Rick&numtimes=4' sends 'name = Rick' and 'runtimes = 4' to the controller.
+'/HelloWorld/Welcome/3?name=Rick' assigns the 'Id' as 3, and sends 'name = Rick' to the controller.
+Thus '?' starts the query string.
+'Id' can also be set with a query string (?id=4).
+-----------------------------------------------------
+A view template should work only with the data that's provided to it by the controller.
+Maintaining this 'separation of concerns' helps keep the code:
+* Clean
+* Testable
+* Maintainable
+-----------------------------------------------------
+'CRUD Page' stands for:
+* Create
+* Read
+* Update
+* Delete
+-----------------------------------------------------
+Add an 'MVC Controller with views using Entity Framework' (Scaffolded Item) to create a model.
+-----------------------------------------------------
+Create a migration with selected commands at Tools>NuGet Package Manager>Package Manager Console
+-----------------------------------------------------
+'Data/...Context' Handles database connection.
+-----------------------------------------------------
+Go to View>SQL Server Object Explorer to check your database.
+-----------------------------------------------------
+'Seeding' a database means populating it with an initial set of data.
+-----------------------------------------------------

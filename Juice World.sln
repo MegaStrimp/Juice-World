@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Juice World", "Juice World\Juice World.csproj", "{B353437C-7BAC-48EF-B8DD-2E3DDE666249}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notes", "Notes", "{8574A0B2-B214-4F72-81F1-4E4C0F61C771}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.txt = Notes.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B353437C-7BAC-48EF-B8DD-2E3DDE666249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B353437C-7BAC-48EF-B8DD-2E3DDE666249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B353437C-7BAC-48EF-B8DD-2E3DDE666249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B353437C-7BAC-48EF-B8DD-2E3DDE666249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00DF7940-7671-4A46-B6AC-5E23D181A17A}
+	EndGlobalSection
+EndGlobal
