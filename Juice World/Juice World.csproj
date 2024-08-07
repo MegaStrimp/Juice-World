@@ -10,6 +10,11 @@
   <ItemGroup>
     <None Include="Views\Home\Index.cshtml" />
     <None Include="Views\Home\Privacy.cshtml" />
+    <None Include="wwwroot\Restaurant\.DS_Store" />
+    <None Include="wwwroot\Restaurant\images\.DS_Store" />
+    <None Include="wwwroot\Restaurant\images\blog\.DS_Store" />
+    <None Include="wwwroot\Restaurant\images\slider\.DS_Store" />
+    <None Include="wwwroot\Restaurant\js\.DS_Store" />
   </ItemGroup>
 
   <ItemGroup>

@@ -62,6 +62,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVpY2VzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/MegaStrimp/Desktop/Juice World/Juice World/Views/Juices/IndexOLD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSnVpY2VzXEluZGV4T0xELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/MegaStrimp/Desktop/Juice World/Juice World/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -78,6 +82,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/MegaStrimp/Desktop/Juice World/Juice World/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-2qh56fm7wy
+[C:/Users/MegaStrimp/Desktop/Juice World/Juice World/Views/Shared/JuicesLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEp1aWNlc0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-x1fl66rh7f

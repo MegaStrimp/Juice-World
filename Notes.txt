@@ -1,4 +1,7 @@
 -----------------------------------------------------
+Followed this tutorial:
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app
+-----------------------------------------------------
 The Model-View-Controller (MVC) separates an app into three components:
 * Model			(Business)	Classes that represent the data of the app
 * View			(UI)		Components that display the app's UI
@@ -44,6 +47,9 @@ To add a new property to the model, first add it to the model class and then upd
 Don't forget to add the new property to SeedData.
 
 When it's all done, update the database schema using Code First Migrations:
+(Rating is the name and can be changed)
 Add-Migration Rating
 Update-Database
+-----------------------------------------------------
+Change the column name of your database if you want to rename it.
 -----------------------------------------------------

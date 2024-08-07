@@ -21,17 +21,17 @@ namespace Juice_World.Controllers
 
         // GET: Juices
         // GET: Movies
-        public async Task<IActionResult> Index(string juiceGenre, string searchString)
+        public async Task<IActionResult> Index(string juiceType, string searchString)
         {
             if (_context.Juice == null)
             {
-                return Problem("Entity set 'Juice_WorldContext.Movie'  is null.");
+                return Problem("Entity set 'Juice_WorldContext.Movie' is null.");
             }
 
-            // Use LINQ to get list of genres.
-            IQueryable<string> genreQuery = from m in _context.Juice
-                                            orderby m.Genre
-                                            select m.Genre;
+            // Use LINQ to get list of types.
+            IQueryable<string> typeQuery = from m in _context.Juice
+                                            orderby m.Type
+                                            select m.Type;
             var juices = from m in _context.Juice
                          select m;
 
@@ -40,18 +40,19 @@ namespace Juice_World.Controllers
                 juices = juices.Where(s => s.Title!.ToUpper().Contains(searchString.ToUpper()));
             }
 
-            if (!string.IsNullOrEmpty(juiceGenre))
+            if (!string.IsNullOrEmpty(juiceType))
             {
-                juices = juices.Where(x => x.Genre == juiceGenre);
+                juices = juices.Where(x => x.Type == juiceType);
             }
 
-            var juiceGenreVM = new JuiceGenreViewModel
+            var juiceTypeVM = new JuiceTypeViewModel
             {
-                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
-                Juices = await juices.ToListAsync()
+                Types = new SelectList(await typeQuery.Distinct().ToListAsync()),
+                Juices = await juices.ToListAsync(),
+                JuicesReverse = await juices.ToListAsync()
             };
 
-            return View(juiceGenreVM);
+            return View(juiceTypeVM);
         }
 
         // GET: Juices/Details/5
@@ -83,7 +84,7 @@ namespace Juice_World.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,ReleaseDate,Genre,Rating,Price")] Juice juice)
+        public async Task<IActionResult> Create([Bind("Id,Title,Description,ReleaseDate,Type,Price,ImageUrl")] Juice juice)
         {
             if (ModelState.IsValid)
             {
@@ -115,7 +116,7 @@ namespace Juice_World.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,ReleaseDate,Genre,Rating,Price")] Juice juice)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Title,Description,ReleaseDate,Type,Price,ImageUrl")] Juice juice)
         {
             if (id != juice.Id)
             {

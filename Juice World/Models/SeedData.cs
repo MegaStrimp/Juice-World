@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Juice_World.Data;
 using System;
 using System.Linq;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace Juice_World.Models
 {
@@ -18,118 +19,128 @@ namespace Juice_World.Models
                     if (context.Juice.Any())
                     {
                         return;   // DB has already been seeded
-                    }
+				}
                     context.Juice.AddRange(
-                    #region Mystic Mango
-                    new Juice
-                    {
-                        Title = "Mystic Mango",
-                        ReleaseDate = DateTime.Parse("2024-7-15"),
-                        Genre = "Fruit",
-                        Rating = "E",
-                        Price = 7.49M
-                    },
-                    #endregion
+				#region Mystic Mango
+				new Juice
+				{
+					Title = "Mystic Mango",
+					Description = "A tropical delight with a mango twist! Smooth, sweet, and full of sunshine in a bottle.",
+					ReleaseDate = DateTime.Parse("2024-7-15"),
+					Type = "Fruit",
+					Price = 7.49M,
+					ImageUrl = "images/items/Mystic Mango.png"
+				},
+				#endregion
 
-                    #region Citrus Celestial
-                    new Juice
-                    {
-                        Title = "Citrus Celestial",
-                        ReleaseDate = DateTime.Parse("2024-6-22"),
-                        Genre = "Fruit",
-                        Rating = "E",
-                        Price = 6.49M
-                    },
-                    #endregion
+				#region Citrus Celestial
+				new Juice
+				{
+					Title = "Citrus Celestial",
+					Description = "Blast off with this zesty blend of oranges, lemons, and limes. A heavenly burst of citrus flavor!",
+					ReleaseDate = DateTime.Parse("2024-6-22"),
+					Type = "Fruit",
+					Price = 6.49M,
+					ImageUrl = "images/items/Citrus Celestial.png"
+				},
+				#endregion
 
-                    #region Zesty Zucchini
-                    new Juice
-                    {
-                        Title = "Zesty Zucchini",
-                        ReleaseDate = DateTime.Parse("2024-5-30"),
-                        Genre = "Veggie",
-                        Rating = "E",
-                        Price = 5.79M
-                    },
-                    #endregion
+				#region Zesty Zucchini
+				new Juice
+				{
+					Title = "Zesty Zucchini",
+					Description = "A surprisingly refreshing veggie juice with a hint of spice. Crunchy, zesty, and utterly unique!",
+					ReleaseDate = DateTime.Parse("2024-5-30"),
+					Type = "Veggie",
+					Price = 5.79M,
+					ImageUrl = "images/items/Zesty Zucchini.png"
+				},
+				#endregion
 
-                    #region Berry Bliss
-                    new Juice
-                    {
-                        Title = "Berry Bliss",
-                        ReleaseDate = DateTime.Parse("2024-4-10"),
-                        Genre = "Fruit",
-                        Rating = "E",
-                        Price = 6.99M
-                    },
-                    #endregion
+				#region Berry Bliss
+				new Juice
+				{
+					Title = "Berry Bliss",
+					Description = "Dive into a berry paradise with this sweet and tangy mix of strawberries, blueberries, and raspberries.",
+					ReleaseDate = DateTime.Parse("2024-4-10"),
+					Type = "Fruit",
+					Price = 6.99M,
+					ImageUrl = "images/items/Berry Bliss.png"
+				},
+				#endregion
 
-                    #region Sweet Spinach
-                    new Juice
-                    {
-                        Title = "Sweet Spinach",
-                        ReleaseDate = DateTime.Parse("2024-3-25"),
-                        Genre = "Veggie",
-                        Rating = "E",
-                        Price = 5.89M
-                    },
-                    #endregion
+				#region Sweet Spinach
+				new Juice
+				{
+					Title = "Sweet Spinach",
+					Description = "Don’t let the name fool you—this spinach juice is surprisingly sweet with a hint of natural goodness.",
+					ReleaseDate = DateTime.Parse("2024-3-25"),
+					Type = "Veggie",
+					Price = 5.89M,
+					ImageUrl = "images/items/Sweet Spinach.png"
+				},
+				#endregion
 
-                    #region Tropical Tango
-                    new Juice
-                    {
-                        Title = "Tropical Tango",
-                        ReleaseDate = DateTime.Parse("2024-2-5"),
-                        Genre = "Fruit",
-                        Rating = "E",
-                        Price = 7.19M
-                    },
-                    #endregion
+				#region Tropical Tango
+				new Juice
+				{
+					Title = "Tropical Tango",
+					Description = "A dance of pineapple, mango, and passion fruit. This tropical blend will have your taste buds twirling!",
+					ReleaseDate = DateTime.Parse("2024-2-5"),
+					Type = "Fruit",
+					Price = 7.19M,
+					ImageUrl = "images/items/Tropical Tango.png"
+				},
+				#endregion
 
-                    #region Crunchy Cucumber
-                    new Juice
-                    {
-                        Title = "Crunchy Cucumber",
-                        ReleaseDate = DateTime.Parse("2024-1-18"),
-                        Genre = "Veggie",
-                        Rating = "E",
-                        Price = 5.59M
-                    },
-                    #endregion
+				#region Crunchy Cucumber
+				new Juice
+				{
+					Title = "Crunchy Cucumber",
+					Description = "Cool, crisp, and refreshingly light. This cucumber juice is a perfect pick-me-up for any time of day.",
+					ReleaseDate = DateTime.Parse("2024-1-18"),
+					Type = "Veggie",
+					Price = 5.59M,
+					ImageUrl = "images/items/Crunchy Cucumber.png"
+				},
+				#endregion
 
-                    #region Radiant Raspberry
-                    new Juice
-                    {
-                        Title = "Radiant Raspberry",
-                        ReleaseDate = DateTime.Parse("2023-12-10"),
-                        Genre = "Fruit",
-                        Rating = "E",
-                        Price = 6.89M
-                    },
-                    #endregion
+				#region Radiant Raspberry
+				new Juice
+				{
+					Title = "Radiant Raspberry",
+					Description = "Bursting with vibrant raspberry flavor and a touch of sweetness. This juice is pure, radiant bliss.",
+					ReleaseDate = DateTime.Parse("2023-12-10"),
+					Type = "Fruit",
+					Price = 6.89M,
+					ImageUrl = "images/items/Radiant Raspberry.png"
+				},
+				#endregion
 
-                    #region Peppery Parsley
-                    new Juice
-                    {
-                        Title = "Peppery Parsley",
-                        ReleaseDate = DateTime.Parse("2023-11-20"),
-                        Genre = "Veggie",
-                        Rating = "E",
-                        Price = 5.99M
-                    },
-                    #endregion
+				#region Peppery Parsley
+				new Juice
+				{
+					Title = "Peppery Parsley",
+					Description = "A bold, peppery kick meets the fresh taste of parsley. Ideal for those who like their juice with a bit of attitude!",
+					ReleaseDate = DateTime.Parse("2023-11-20"),
+					Type = "Veggie",
+					Price = 5.99M,
+					ImageUrl = "images/items/Peppery Parsley.png"
+				},
+				#endregion
 
-                    #region Gleaming Grapefruit
-                    new Juice
-                    {
-                        Title = "Gleaming Grapefruit",
-                        ReleaseDate = DateTime.Parse("2023-10-7"),
-                        Genre = "Fruit",
-                        Rating = "E",
-                        Price = 7.29M
-                    }
-                    #endregion
-                );
+				#region Gleaming Grapefruit
+				new Juice
+				{
+					Title = "Gleaming Grapefruit",
+					Description = "Bright and tangy, with a refreshing twist of grapefruit. This juice is like a burst of sunshine in every sip.",
+					ReleaseDate = DateTime.Parse("2023-10-7"),
+					Type = "Fruit",
+					Price = 7.29M,
+					ImageUrl = "images/items/Gleaming Grapefruit.png"
+				}
+				#endregion
+				);
                 context.SaveChanges();
             }
         }

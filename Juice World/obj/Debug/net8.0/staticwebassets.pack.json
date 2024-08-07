@@ -5,12 +5,276 @@
       "PackagePath": "staticwebassets\\Juice World.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\.gitignore",
+      "PackagePath": "staticwebassets\\Restaurant\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\LICENSE",
+      "PackagePath": "staticwebassets\\Restaurant"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\Restaurant\\css\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Restaurant\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Restaurant\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\css\\main.css",
+      "PackagePath": "staticwebassets\\Restaurant\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\Restaurant\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Restaurant\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\Restaurant\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\Restaurant\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\Restaurant\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Restaurant\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Restaurant\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\fonts\\ufonts.com_tw-cen-mt.ttf",
+      "PackagePath": "staticwebassets\\Restaurant\\fonts\\ufonts.com_tw-cen-mt.ttf"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-bg.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-1.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-2.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-3.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-4.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-5.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-6.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\blog\\blog-img-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\blog\\blog-img-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\cooker-img.png",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\cooker-img.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\header.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\overlay-pattern.png",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\overlay-pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\overlay-pattern2.png",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\overlay-pattern2.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\photo\\photo-1.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\photo\\photo-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\photo\\photo-2.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\photo\\photo-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\photo\\photo-3.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\photo\\photo-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\photo\\photo-4.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\photo\\photo-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\slider\\slider-img-1.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\slider\\slider-img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\slider\\slider-img-2.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\slider\\slider-img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\slider\\slider-img-3.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\slider\\slider-img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\slider\\slider-img-4.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\slider\\slider-img-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\images\\subscribe-bg.jpg",
+      "PackagePath": "staticwebassets\\Restaurant\\images\\subscribe-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\index.html",
+      "PackagePath": "staticwebassets\\Restaurant\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\main.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\min\\main.min.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\min\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\plugins.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\vendor\\jquery-1.10.2.min.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\vendor\\jquery-1.10.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\vendor\\modernizr-2.6.2.min.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\vendor\\modernizr-2.6.2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\Restaurant\\js\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\less\\main.less",
+      "PackagePath": "staticwebassets\\Restaurant\\less\\main.less"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\less\\responsive.less",
+      "PackagePath": "staticwebassets\\Restaurant\\less\\responsive.less"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\Restaurant\\readme.md",
+      "PackagePath": "staticwebassets\\Restaurant\\readme.md"
+    },
+    {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Berry Bliss.png",
+      "PackagePath": "staticwebassets\\images\\items\\Berry Bliss.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Citrus Celestial.png",
+      "PackagePath": "staticwebassets\\images\\items\\Citrus Celestial.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Crunchy Cucumber.png",
+      "PackagePath": "staticwebassets\\images\\items\\Crunchy Cucumber.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Gleaming Grapefruit.png",
+      "PackagePath": "staticwebassets\\images\\items\\Gleaming Grapefruit.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Mystic Mango.png",
+      "PackagePath": "staticwebassets\\images\\items\\Mystic Mango.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Peppery Parsley.png",
+      "PackagePath": "staticwebassets\\images\\items\\Peppery Parsley.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Radiant Raspberry.png",
+      "PackagePath": "staticwebassets\\images\\items\\Radiant Raspberry.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Sweet Spinach.png",
+      "PackagePath": "staticwebassets\\images\\items\\Sweet Spinach.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Tropical Tango.png",
+      "PackagePath": "staticwebassets\\images\\items\\Tropical Tango.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Zesty Zucchini.png",
+      "PackagePath": "staticwebassets\\images\\items\\Zesty Zucchini.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Blog.png",
+      "PackagePath": "staticwebassets\\images\\main\\Blog.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Header.png",
+      "PackagePath": "staticwebassets\\images\\main\\Header.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Logo.png",
+      "PackagePath": "staticwebassets\\images\\main\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Overlay Pattern.png",
+      "PackagePath": "staticwebassets\\images\\main\\Overlay Pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Overlay Pattern2.png",
+      "PackagePath": "staticwebassets\\images\\main\\Overlay Pattern2.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Subscribe.png",
+      "PackagePath": "staticwebassets\\images\\main\\Subscribe.png"
     },
     {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\js\\site.js",

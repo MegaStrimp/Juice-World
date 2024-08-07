@@ -20,7 +20,6 @@ C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\staticwebas
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Juice World.props
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Juice World.props
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\scopedcss\bundle\Juice World.styles.css
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\scopedcss\projectbundle\Juice World.bundle.scp.css
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\Juice World.dll
@@ -251,3 +250,4 @@ C:\Users\MegaStrimp\Desktop\Juice World\Juice World\bin\Debug\net8.0\runtimes\wi
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\Juice World.csproj.AssemblyReference.cache
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\Juice Wo.B51CA2A7.Up2Date
 C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\Juice World.sourcelink.json
+C:\Users\MegaStrimp\Desktop\Juice World\Juice World\obj\Debug\net8.0\scopedcss\Views\Shared\JuicesLayout.cshtml.rz.scp.css
