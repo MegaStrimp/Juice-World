@@ -53,3 +53,5 @@ Update-Database
 -----------------------------------------------------
 Change the column name of your database if you want to rename it.
 -----------------------------------------------------
+'System.Diagnostics.Debug.WriteLine()' writes to Visual Studio's 'output' view.
+-----------------------------------------------------

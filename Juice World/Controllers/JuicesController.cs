@@ -20,12 +20,11 @@ namespace Juice_World.Controllers
         }
 
         // GET: Juices
-        // GET: Movies
         public async Task<IActionResult> Index(string juiceType, string searchString)
         {
             if (_context.Juice == null)
             {
-                return Problem("Entity set 'Juice_WorldContext.Movie' is null.");
+                return Problem("Entity set 'Juice_WorldContext.Juice' is null.");
             }
 
             // Use LINQ to get list of types.
@@ -90,6 +89,7 @@ namespace Juice_World.Controllers
             {
                 _context.Add(juice);
                 await _context.SaveChangesAsync();
+
                 return RedirectToAction(nameof(Index));
             }
             return View(juice);
@@ -154,8 +154,8 @@ namespace Juice_World.Controllers
                 return NotFound();
             }
 
-            var juice = await _context.Juice
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var juice = await _context.Juice.FirstOrDefaultAsync(m => m.Id == id);
+
             if (juice == null)
             {
                 return NotFound();
@@ -172,7 +172,8 @@ namespace Juice_World.Controllers
             var juice = await _context.Juice.FindAsync(id);
             if (juice != null)
             {
-                _context.Juice.Remove(juice);
+				System.IO.File.Delete("wwwroot/images/items/" + juice.ImageUrl);
+				_context.Juice.Remove(juice);
             }
 
             await _context.SaveChangesAsync();

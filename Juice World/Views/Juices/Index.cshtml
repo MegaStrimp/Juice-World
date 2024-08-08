@@ -77,7 +77,6 @@
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav navbar-right" id="top-nav">
 										<li><a href="#hero-area">Home</a></li>
-										<li><a href="#about-us">about us</a></li>
 										<li><a href="#blog">New</a></li>
 										<li><a href="#price">menu</a></li>
 										<li><a href="#subscribe">news</a></li>
@@ -104,28 +103,34 @@
 						</div>
 						<div id="owl-example" class="owl-carousel">
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-1.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured1.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-2.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured2.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-3.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured3.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-4.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured4.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-1.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured5.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-2.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured6.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-3.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured7.png" alt="">
 							</div>
 							<div>
-								<img class="img-responsive" src="~/Restaurant/images/slider/slider-img-4.jpg" alt="">
+								<img class="img-responsive" src="~/images/featured/Featured8.png" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="~/images/featured/Featured9.png" alt="">
+							</div>
+							<div>
+								<img class="img-responsive" src="~/images/featured/Featured10.png" alt="">
 							</div>
 
 						</div>
@@ -135,32 +140,6 @@
 		</div><!-- .container close -->
 	</section><!-- slider close -->
 	<!--
-	about-us start
-	============================== -->
-	<section id="about-us">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="block">
-						<img class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms" src="~/Restaurant/images/cooker-img.png"
-							 alt="cooker-img">
-						<h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
-							Your
-							<span>Restaurant’s</span> </br> Website Has To Look <span>Good</span>
-						</h1>
-						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">
-							Lorem ipsum dolor sit
-							amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim </br> ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-							ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate
-							velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-						</p>
-					</div>
-				</div><!-- .col-md-12 close -->
-			</div><!-- .row close -->
-		</div><!-- .containe close -->
-	</section><!-- #call-to-action close -->
-	<!--
 	blog start
 	============================ -->
 	<section id="blog">
@@ -168,13 +147,13 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="block">
-						<h1 class="heading">New <span>Items</span> in the <span>Menu!</span></h1>
+						<h1 class="heading">new <span>Items</span> in the <span>Menu</span></h1>
 						<ul>
 							@foreach (var item in Model.JuicesReverse!.Take(4))
 							{
 								<li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="700ms">
 									<div class="blog-img">
-										<img src="~/@Html.DisplayFor(modelItem => item.ImageUrl)" alt="blog-img">
+										<img src="~/images/items/@Html.DisplayFor(modelItem => item.ImageUrl)" alt="blog-img">
 									</div>
 									<div class="content-right">
 										<h3>@Html.DisplayFor(modelItem => item.Title)</h3>
@@ -198,25 +177,27 @@
 				<div class="col-md-12">
 					<div class="block">
 						<h1 class="heading wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
-							our
-							<span>MENU</span> the <span>PRICE</span>
+							<span>Take</span> a <span>Sip</span>
 						</h1>
 						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-							Lorem ipsum dolor sit
-							amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+							At Juice World, every sip is an adventure. Our shop is your go-to destination for fresh, handcrafted juices with a twist. We pride ourselves on offering unique and creative drink names that are as fun to order as they are to enjoy. Each of our juices is made from the highest quality fruits, carefully selected to create bold flavors that will tantalize your taste buds. Whether you're in the mood for a refreshing classic or one of our signature blends, Juice World has the perfect drink to make your day a little brighter.
+
+							Step into Juice World, take a sip, and discover your new favorite juice!
 						</p>
 						<div class="pricing-list">
 							<div class="title">
 								<h3>Featured <span>on the week</span></h3>
 							</div>
 							<ul>
+								<a asp-action="Create">Create New</a>
 								@foreach (var item in Model.Juices!)
 								{
 									<li class="wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
 										<div class="item">
 											<div class="item-title">
 												<h2>@Html.DisplayFor(modelItem => item.Title)</h2>
+												<a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+												<a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
 												<div class="border-bottom"></div>
 												<span>@Html.DisplayFor(modelItem => item.Price)</span>
 											</div>
@@ -242,12 +223,10 @@
 				<div class="col-md-12">
 					<div class="block">
 						<h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
-							SUBSCRIBE
-							<span>to our</span> NEWSLETTER
+							stay <span>Refreshed</span> with <span>Juice World</span>
 						</h1>
 						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
-							Lorem ipsum dolor sit
-							amet, consectetur adipiscing elit, sed do eiusmod
+							Subscribe to our newsletter and be the first to sip on our latest creations, discover exclusive deals, and get a taste of juicy updates delivered straight to your inbox. Don’t miss out—join the Juice World community today!
 						</p>
 						<form class="form-inline">
 							<div class="form-group">
@@ -274,8 +253,7 @@
 				<div class="col-md-12">
 					<div class="block">
 						<h1 class="heading wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-							our
-							<span>CONTACT US</span>
+							<span>Contact</span> us
 						</h1>
 						<h3 class="title wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
 							Sign Up for
@@ -356,23 +334,6 @@
 				<!-- .col-md-4 close -->
 				<div class="col-md-4">
 					<div class="block wow fadeInLeft" data-wow-delay="1100ms">
-						<div class="gallary">
-							<h3>PHOTO <span>STREAM</span></h3>
-							<ul>
-								<li>
-									<a href="#"><img src="~/Restaurant/images/photo/photo-1.jpg" alt=""></a>
-								</li>
-								<li>
-									<a href="#"><img src="~/Restaurant/images/photo/photo-2.jpg" alt=""></a>
-								</li>
-								<li>
-									<a href="#"><img src="~/Restaurant/images/photo/photo-3.jpg" alt=""></a>
-								</li>
-								<li>
-									<a href="#"><img src="~/Restaurant/images/photo/photo-4.jpg" alt=""></a>
-								</li>
-							</ul>
-						</div>
 						<div class="social-media-link">
 							<h3>Follow <span>US</span></h3>
 							<ul>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Juice World")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+234c0b2235a2210685e252ee14a517f5bb39ba67")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+030e9d00a1aaa72cf5433bb6a0c614cc88324ec0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Juice World")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Juice World")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

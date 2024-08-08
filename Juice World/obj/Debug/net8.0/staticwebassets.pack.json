@@ -213,6 +213,46 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured1.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured1.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured10.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured10.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured2.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured2.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured3.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured3.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured4.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured4.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured5.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured5.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured6.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured6.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured7.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured7.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured8.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured8.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\featured\\Featured9.png",
+      "PackagePath": "staticwebassets\\images\\featured\\Featured9.png"
+    },
+    {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Berry Bliss.png",
       "PackagePath": "staticwebassets\\images\\items\\Berry Bliss.png"
     },
@@ -231,10 +271,6 @@
     {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Mystic Mango.png",
       "PackagePath": "staticwebassets\\images\\items\\Mystic Mango.png"
-    },
-    {
-      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Peppery Parsley.png",
-      "PackagePath": "staticwebassets\\images\\items\\Peppery Parsley.png"
     },
     {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\items\\Radiant Raspberry.png",
@@ -275,6 +311,46 @@
     {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\main\\Subscribe.png",
       "PackagePath": "staticwebassets\\images\\main\\Subscribe.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Berry Bliss.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Berry Bliss.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Citrus Celestial.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Citrus Celestial.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Crunchy Cucumber.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Crunchy Cucumber.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Gleaming Grapefruit.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Gleaming Grapefruit.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Mystic Mango.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Mystic Mango.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Peppery Parsley.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Peppery Parsley.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Radiant Raspberry.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Radiant Raspberry.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Sweet Spinach.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Sweet Spinach.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Tropical Tango.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Tropical Tango.png"
+    },
+    {
+      "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\images\\seeded items\\Zesty Zucchini.png",
+      "PackagePath": "staticwebassets\\images\\seeded items\\Zesty Zucchini.png"
     },
     {
       "Id": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\wwwroot\\js\\site.js",

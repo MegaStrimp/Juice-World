@@ -13,14 +13,14 @@ namespace Juice_World.Models
         {
             using (var context = new Juice_WorldContext(
                 serviceProvider.GetRequiredService<
-                    DbContextOptions<Juice_WorldContext>>()))
-                {
-                    // Look for any juices.
-                    if (context.Juice.Any())
-                    {
-                        return;   // DB has already been seeded
-				}
-                    context.Juice.AddRange(
+                DbContextOptions<Juice_WorldContext>>()))
+				{
+					// Look for any juices.
+					if (context.Juice.Any())
+					{
+						return;   // DB has already been seeded
+					}
+                context.Juice.AddRange(
 				#region Mystic Mango
 				new Juice
 				{
@@ -29,7 +29,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-7-15"),
 					Type = "Fruit",
 					Price = 7.49M,
-					ImageUrl = "images/items/Mystic Mango.png"
+					ImageUrl = "Mystic Mango.png"
 				},
 				#endregion
 
@@ -41,7 +41,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-6-22"),
 					Type = "Fruit",
 					Price = 6.49M,
-					ImageUrl = "images/items/Citrus Celestial.png"
+					ImageUrl = "Citrus Celestial.png"
 				},
 				#endregion
 
@@ -53,7 +53,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-5-30"),
 					Type = "Veggie",
 					Price = 5.79M,
-					ImageUrl = "images/items/Zesty Zucchini.png"
+					ImageUrl = "Zesty Zucchini.png"
 				},
 				#endregion
 
@@ -65,7 +65,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-4-10"),
 					Type = "Fruit",
 					Price = 6.99M,
-					ImageUrl = "images/items/Berry Bliss.png"
+					ImageUrl = "Berry Bliss.png"
 				},
 				#endregion
 
@@ -77,7 +77,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-3-25"),
 					Type = "Veggie",
 					Price = 5.89M,
-					ImageUrl = "images/items/Sweet Spinach.png"
+					ImageUrl = "Sweet Spinach.png"
 				},
 				#endregion
 
@@ -89,7 +89,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-2-5"),
 					Type = "Fruit",
 					Price = 7.19M,
-					ImageUrl = "images/items/Tropical Tango.png"
+					ImageUrl = "Tropical Tango.png"
 				},
 				#endregion
 
@@ -101,7 +101,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2024-1-18"),
 					Type = "Veggie",
 					Price = 5.59M,
-					ImageUrl = "images/items/Crunchy Cucumber.png"
+					ImageUrl = "Crunchy Cucumber.png"
 				},
 				#endregion
 
@@ -113,7 +113,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2023-12-10"),
 					Type = "Fruit",
 					Price = 6.89M,
-					ImageUrl = "images/items/Radiant Raspberry.png"
+					ImageUrl = "Radiant Raspberry.png"
 				},
 				#endregion
 
@@ -125,7 +125,7 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2023-11-20"),
 					Type = "Veggie",
 					Price = 5.99M,
-					ImageUrl = "images/items/Peppery Parsley.png"
+					ImageUrl = "Peppery Parsley.png"
 				},
 				#endregion
 
@@ -137,12 +137,46 @@ namespace Juice_World.Models
 					ReleaseDate = DateTime.Parse("2023-10-7"),
 					Type = "Fruit",
 					Price = 7.29M,
-					ImageUrl = "images/items/Gleaming Grapefruit.png"
+					ImageUrl = "Gleaming Grapefruit.png"
 				}
 				#endregion
 				);
                 context.SaveChanges();
+
+				#region Clean Up The Items Directory
+				if (Directory.Exists("wwwroot/images/items")) DeleteDirectory("wwwroot/images/items");
+				Directory.CreateDirectory("wwwroot/images/items");
+				#endregion
+
+				#region Copy Seeded Image To Images
+				foreach (var item in context.Juice!)
+                {
+					string fileToCopy = "wwwroot/images/seeded items/" + item.ImageUrl;
+					string destinationDirectory = "wwwroot/images/items/" + Path.GetFileName(fileToCopy);
+
+					if (!File.Exists(destinationDirectory)) File.Copy(fileToCopy, destinationDirectory);
+                }
+                #endregion
             }
         }
-    }
+		public static void DeleteDirectory(string target_dir)
+		{
+			string[] files = Directory.GetFiles(target_dir);
+			string[] dirs = Directory.GetDirectories(target_dir);
+
+			System.Diagnostics.Debug.WriteLine("AAAAAAAAAAAAAAAAAAAAa");
+			foreach (string file in files)
+			{
+				File.SetAttributes(file, FileAttributes.Normal);
+				File.Delete(file);
+			}
+
+			foreach (string dir in dirs)
+			{
+				DeleteDirectory(dir);
+			}
+
+			Directory.Delete(target_dir, false);
+		}
+	}
 }
