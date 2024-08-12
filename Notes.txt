@@ -31,7 +31,7 @@ Maintaining this 'separation of concerns' helps keep the code:
 * Update
 * Delete
 -----------------------------------------------------
-Add an 'MVC Controller with views using Entity Framework' (Scaffolded Item) to create a model.
+Add an 'MVC Controller with views using Entity Framework' (Scaffolded Item) to create a controller tied to a model.
 -----------------------------------------------------
 Create a migration with selected commands at Tools>NuGet Package Manager>Package Manager Console:
 Add-Migration InitialCreate
