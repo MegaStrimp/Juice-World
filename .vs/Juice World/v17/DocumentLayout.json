@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B353437C-7BAC-48EF-B8DD-2E3DDE666249}|Juice World\\Juice World.csproj|c:\\users\\megastrimp\\desktop\\juice world\\juice world\\models\\juice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B353437C-7BAC-48EF-B8DD-2E3DDE666249}|Juice World\\Juice World.csproj|solutionrelative:juice world\\models\\juice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B353437C-7BAC-48EF-B8DD-2E3DDE666249}|Juice World\\Juice World.csproj|c:\\users\\megastrimp\\desktop\\juice world\\juice world\\controllers\\juicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B353437C-7BAC-48EF-B8DD-2E3DDE666249}|Juice World\\Juice World.csproj|solutionrelative:juice world\\controllers\\juicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8574A0B2-B214-4F72-81F1-4E4C0F61C771}|Notes{8574A0B2-B214-4F72-81F1-4E4C0F61C771}|C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8574A0B2-B214-4F72-81F1-4E4C0F61C771}|Notes{8574A0B2-B214-4F72-81F1-4E4C0F61C771}|solutionrelative:Notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B353437C-7BAC-48EF-B8DD-2E3DDE666249}|Juice World\\Juice World.csproj|c:\\users\\megastrimp\\desktop\\juice world\\juice world\\views\\juices\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -22,24 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Notes.txt",
+              "DocumentMoniker": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Notes.txt",
+              "RelativeDocumentMoniker": "Notes.txt",
+              "ToolTip": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Notes.txt",
+              "RelativeToolTip": "Notes.txt",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-08-13T06:26:03.179Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "JuicesController.cs",
-              "DocumentMoniker": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Controllers\\JuicesController.cs",
-              "RelativeDocumentMoniker": "Juice World\\Controllers\\JuicesController.cs",
-              "ToolTip": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Controllers\\JuicesController.cs",
-              "RelativeToolTip": "Juice World\\Controllers\\JuicesController.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAUwHEAAAAeAAAA",
+              "Title": "Juice.cs",
+              "DocumentMoniker": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Models\\Juice.cs",
+              "RelativeDocumentMoniker": "Juice World\\Models\\Juice.cs",
+              "ToolTip": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Models\\Juice.cs",
+              "RelativeToolTip": "Juice World\\Models\\Juice.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-08T13:10:45.738Z",
+              "WhenOpened": "2024-08-13T06:24:42.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "JuicesController.cs",
+              "DocumentMoniker": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Controllers\\JuicesController.cs",
+              "RelativeDocumentMoniker": "Juice World\\Controllers\\JuicesController.cs",
+              "ToolTip": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Controllers\\JuicesController.cs",
+              "RelativeToolTip": "Juice World\\Controllers\\JuicesController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAUwHEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T13:10:45.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Views\\Juices\\Index.cshtml",
               "RelativeDocumentMoniker": "Juice World\\Views\\Juices\\Index.cshtml",
@@ -51,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MegaStrimp\\Desktop\\Juice World\\Juice World\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Juice World\\Views\\Home\\Index.cshtml",
